@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+    <title>Ai object detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="ai background.jpg">
+    <center>
+        <h1 id="otis">type an object in then get that object and make it visible on the screen</h1>
+        <input type="text" id="object">
+        <button onclick="start();" class="btn btn-success" id="start">Start</button>
+        <span id="status"></span>
+        <span id="status_of_wether"></span>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
